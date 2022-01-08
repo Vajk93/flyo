@@ -5,5 +5,6 @@ here is the design plan: https://www.frontendmentor.io/challenges/fylo-dark-them
 And here is my work:
 https://vajk93.github.io/flyo/
 
+I made it for practice and having some fun.
 you can sign up with a valid email (only frontend)
 
