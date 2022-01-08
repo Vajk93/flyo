@@ -16,4 +16,3 @@ And here is my work:
 https://vajk93.github.io/flyo/
 
 I made it for practice and having some sun.
-
