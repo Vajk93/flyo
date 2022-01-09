@@ -9,6 +9,7 @@ here is the design plan: https://www.frontendmentor.io/challenges/fylo-dark-them
   +bar icon on mobile view
   +sticky navbar
   +toggle mobile menu
+  +loading icon
 
 html, css, native js
 
