@@ -1,0 +1,599 @@
+/************************* Media Query for Mobile Devices *************************/
+@media (max-width: 480px) {
+  body {
+      /* background-color: red; */
+  }
+
+  nav {
+    height: 100px;
+  }
+  
+  #barIcon {
+    display: block;
+  }
+
+  .overlay .closebtn {
+    top: 0px;
+    right: 8px;
+  }
+
+  nav ul li{
+    display: none;
+  }
+
+  #hero h1{
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 28px;
+  }
+
+  #hero img {
+    max-width: 90%;
+  }
+
+  #hero p {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  #services {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr, 1fr, 1fr, 1fr;
+    padding-left:5px;
+    padding-right: 5px;
+  }
+
+  #stayProductive {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #stayProductive div:nth-child(1) {
+    display: flex;
+    justify-content: center;
+  }
+
+  #stayProductive div:nth-child(2) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+
+  #stayProductive img {
+    max-width: 90%;
+  }
+
+  .footer-infos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #testimonials {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+
+  #testimonials div {
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  #form-section div {
+    width: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    left: 0;
+    top: 100px;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+
+  #form-section h2 {
+    text-align: center;
+  }
+
+  #form-section input {
+    width: 330px;
+    max-width: 80%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+
+  #form-section #formBtn {
+    width: 330px;
+    max-width: 80%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+
+  footer {
+    padding-top: 150px;
+  }
+
+  footer .location-description {
+    margin-bottom: 30px;
+    background-image: url('images/icon-location.svg');
+    background-repeat: no-repeat;
+    padding-left: 27px;
+  }
+
+  footer svg:nth-child(1) {
+    margin-left:5px;
+  }
+
+  footer .location-svg svg {
+    display: none;
+  }
+
+  .footer-infos  {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left:0px;
+  }
+
+  .first-group-liks{
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+  .footer-social-icons {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+  } 
+
+  .footer-social-icons i {
+    width: 30px;
+    height: 30px;
+    padding-top: 7px;
+    padding-left: 7px;
+    padding-right: 0px;
+    margin-left: 0px;
+    margin-right: 12px;
+  }
+
+  .footer-social-icons i:nth-child(1) { /* facebook icon */
+    padding-left: 9px;
+  }
+}
+
+/************************* Media Query for low resolution  Tablets, Ipads *************************/
+@media (min-width: 481px) and (max-width: 767px) {
+  body {
+      /* background-color: yellow; */
+  }
+
+  nav ul {margin-right: 10px;}
+  nav svg {margin-left: 10px;}
+
+  nav {
+    height: 100px;
+  }
+
+  .overlay .closebtn {
+    top: 0px;
+    right: 17px;
+  }
+  
+  #barIcon {
+    display: block;
+  }
+
+  nav ul li{
+    display: none;
+  }
+
+  #hero img {
+    max-width: 90%;
+  }
+
+  #hero p {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+
+  #services {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr, 1fr, 1fr, 1fr;
+    padding-left:35px;
+    padding-right: 35px;
+  }
+
+  #stayProductive {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #stayProductive div:nth-child(1) {
+    display: flex;
+    justify-content: center;
+  }
+
+  #stayProductive div:nth-child(2) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+
+  #stayProductive img {
+    max-width: 90%;
+  }
+
+  .footer-infos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #testimonials {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+
+  #testimonials div {
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  #form-section div {
+    width: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    left: 0;
+    top: 100px;
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+
+  #form-section h2 {
+    text-align: center;
+  }
+
+  #form-section input {
+    width: 330px;
+    max-width: 80%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+
+  #form-section #formBtn {
+    width: 330px;
+    max-width: 80%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+
+  footer {
+    padding-top: 150px;
+  }
+
+  footer .location-description {
+    margin-bottom: 30px;
+    background-image: url('images/icon-location.svg');
+    background-repeat: no-repeat;
+    padding-left: 27px;
+  }
+
+  footer svg:nth-child(1) {
+    margin-left:40px;
+  }
+
+  footer .location-svg svg {
+    display: none;
+  }
+
+  .footer-infos  {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left:20px;
+  }
+
+  .first-group-liks{
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+  .footer-social-icons {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+  } 
+
+  .footer-social-icons i {
+    width: 30px;
+    height: 30px;
+    padding-top: 7px;
+    padding-left: 7px;
+    padding-right: 0px;
+    margin-left: 0px;
+    margin-right: 12px;
+  }
+
+  .footer-social-icons i:nth-child(1) { /* facebook icon */
+    padding-left: 9px;
+  }
+}
+
+/************************* Media Query for Tablets Ipads portrait mode *************************/
+@media (min-width: 768px) and (max-width: 1024px){
+  body {
+      /* background-color: blue; */
+  }
+
+  #mobileMenu {
+    display: none;
+  }
+
+  nav ul {margin-right: 10px;}
+  nav svg {margin-left: 10px;}
+
+  #hero img {
+    max-width: 90%;
+  }
+
+  #hero p {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+
+  #services {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr, 1fr, 1fr, 1fr;
+    padding-left:45px;
+    padding-right: 45px;
+  }
+
+  #stayProductive {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #stayProductive div:nth-child(1) {
+    display: flex;
+    justify-content: center;
+  }
+
+  #stayProductive div:nth-child(2) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 80px;
+    padding-right: 80px;
+  }
+
+  #stayProductive img {
+    max-width: 90%;
+  }
+
+  .footer-infos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #testimonials {
+    display: flex;
+    align-items: center;
+    margin-left: 80px;
+    margin-right: 80px;
+  }
+
+  #testimonials div {
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  #form-section div {
+    width: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    left: 0;
+    top: 100px;
+    margin-left: 80px;
+    margin-right: 80px;
+  }
+
+  #form-section h2 {
+    text-align: center;
+  }
+
+  #form-section input {
+    width: 330px;
+    max-width: 80%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+
+  #form-section #formBtn {
+    width: 330px;
+    max-width: 80%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+
+  footer {
+    padding-top: 150px;
+  }
+
+  footer .location-description {
+    margin-bottom: 30px;
+    background-image: url('images/icon-location.svg');
+    background-repeat: no-repeat;
+    padding-left: 27px;
+  }
+
+  footer svg:nth-child(1) {
+    margin-left:80px;
+  }
+
+  footer .location-svg svg {
+    display: none;
+  }
+
+  .footer-infos  {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left:60px;
+    margin-right:60px;
+  }
+
+  .first-group-liks{
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+  .footer-social-icons {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+  } 
+
+  .footer-social-icons i {
+    width: 30px;
+    height: 30px;
+    padding-top: 7px;
+    padding-left: 7px;
+    padding-right: 0px;
+    margin-left: 0px;
+    margin-right: 12px;
+  }
+
+  .footer-social-icons i:nth-child(1) { /* facebook icon */
+    padding-left: 9px;
+  }
+}
+
+/************************* Media Query for Laptops and Desktops ******************/
+@media (min-width: 1025px) and (max-width: 1280px){
+  body {
+      /*background-color: green;*/
+  }
+
+  #mobileMenu {
+    display: none;
+  }
+
+  nav a:hover {
+    text-decoration: none;
+    color:var(--white);
+    border-bottom: 1px solid white;
+    transition: 200ms;
+    opacity: 1;
+  }
+
+  #hero button:hover,
+  #form-section #formBtn:hover {
+    background: #d0f6f3;
+    cursor: pointer;
+  }
+
+  #stayProductive a:hover {
+    color: var(--white);
+    border-bottom: 1px solid var(--white);
+    transition: 200ms;
+  }
+
+  .footer-infos a {
+    opacity: .7;
+    transition: 200ms;
+    padding-left: auto;
+  }
+
+  .footer-infos a:hover {
+    opacity: 1;
+    transition: 200ms;    
+  }
+}
+
+/***************************** Media Query for Large screens **********************/
+@media (min-width: 1281px) {
+  body {
+      /* background-color: white; */
+  }
+
+  #mobileMenu {
+    display: none;
+  }
+
+  nav a:hover {
+    text-decoration: none;
+    color:var(--white);
+    border-bottom: 1px solid white;
+    transition: 200ms;
+    opacity: 1;
+  }
+
+  #hero button:hover,
+  #form-section #formBtn:hover {
+    background: #d0f6f3;
+    cursor: pointer;
+  }
+
+  #stayProductive a:hover {
+    color: var(--white);
+    border-bottom: 1px solid var(--white);
+    transition: 200ms;
+  }
+
+  .footer-infos a {
+    opacity: .7;
+    transition: 200ms;
+    padding-left: auto;
+  }
+
+  .footer-infos a:hover {
+    opacity: 1;
+    transition: 200ms;    
+  }
+  
+  .footer-social-icons i:hover {
+    border: 1px solid var(--cyanInsideCtaGradient);
+    color: var(--cyanInsideCtaGradient);
+    transition: 200ms;
+    cursor: pointer;
+  }
+}
