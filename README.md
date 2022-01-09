@@ -13,6 +13,6 @@ here is the design plan: https://www.frontendmentor.io/challenges/fylo-dark-them
 html, css, native js
 
 And here is my work:
-https://vajk93.github.io/flyo/
+https://vajk93.github.io/fylo/
 
 I made it for practice and having some fun.
